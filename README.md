@@ -1,6 +1,7 @@
-# Sprint::Rails
+Sprint-rails
+===============
 
-TODO: Write a gem description
+Integrate [Sprint.js](https://github.com/bendc/sprint), a high-performance, minimal, and simple substitute of jQuery to Asset pipeline of your Rails App.
 
 ## Installation
 
@@ -12,15 +13,24 @@ gem 'sprint-rails'
 
 And then execute:
 
-    $ bundle
+```
+$ bundle
+```
 
-Or install it yourself as:
+After that, you need to make sprint.js available on your pages. To do that, you can add it to your application.js file, like this:
 
-    $ gem install sprint-rails
+```
+//= require sprint
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+Just as same as jQuery, you can use like following. If you'd check in detail, visit [the original github repo of Sprint.js](https://github.com/bendc/sprint)
+
+```
+$("div").addClass("new").append("<p>Hi Sprint</p>");
+```
+
 
 ## Contributing
 

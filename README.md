@@ -14,7 +14,7 @@ gem 'sprint-rails'
 And then execute:
 
 ```
-$ bundle
+$ bundle install
 ```
 
 After that, you need to make sprint.js available on your pages. To do that, you can add it to your application.js file, like this:

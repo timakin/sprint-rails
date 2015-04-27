@@ -27,10 +27,17 @@ After that, you need to make sprint.js available on your pages. To do that, you 
 
 Just as same as jQuery, you can use like following. If you'd check in detail, visit [the original github repo of Sprint.js](https://github.com/bendc/sprint)
 
+*In original case, Sprint's syntax is like this:
+
 ```
 $("div").addClass("new").append("<p>Hi Sprint</p>");
 ```
 
+But if you try to integrate it with Rails or existing jQuery apps, you have to use "Sprint" instead of "$" like this:
+
+```
+Sprint("div").addClass("new").append("<p>Hi Sprint</p>");
+```
 
 ## Contributing
 
